@@ -1,0 +1,10 @@
+[submodule "iosevka"]
+	shallow = true
+	path = iosevka
+	url = https://github.com/be5invis/Iosevka
+    ignore = dirty
+[submodule "nerdfonts"]
+	shallow = true
+	path = nerdfonts
+	url = https://github.com/ryanoasis/nerd-fonts
+    ignore = dirty
