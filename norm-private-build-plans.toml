@@ -76,18 +76,13 @@ cent = "through"
 percent = "rings-continuous-slash"
 bar = "force-upright"
 lig-ltgteq = "flat"
-ascii-single-quote = "raised-comma"
+ascii-single-quote = "straight"
 ascii-grave = "straight"
 question = "smooth"
 punctuation-dot = "square"
 
-  [buildPlans.iosevka-serif.ligations]
-  inherits = "dlig"
-
-[buildPlans.iosevka-serif.weights.light]
-shape = 300
-menu = 300
-css = 300
+[buildPlans.iosevka-serif.ligations]
+inherits = "dlig"
 
 [buildPlans.iosevka-serif.weights.regular]
 shape = 400
@@ -108,16 +103,6 @@ css = 600
 shape = 700
 menu = 700
 css = 700
-
-[buildPlans.iosevka-serif.weights.extrabold]
-shape = 800
-menu = 800
-css = 800
-
-[buildPlans.iosevka-serif.weights.heavy]
-shape = 900
-menu = 900
-css = 900
 
 [buildPlans.iosevka-serif.widths.normal]
 shape = 600
