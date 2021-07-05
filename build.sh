@@ -2,6 +2,7 @@
 
 cp ./term-private-build-plans.toml ./iosevka/private-build-plans.toml
 cd iosevka
+npm cache clean --force
 npm install
 npm run build -- ttf::iosevka-serif-term
 cd ..
