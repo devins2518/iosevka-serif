@@ -81,9 +81,6 @@ ascii-grave = "straight"
 question = "smooth"
 punctuation-dot = "square"
 
-[buildPlans.iosevka-serif.ligations]
-inherits = "dlig"
-
 [buildPlans.iosevka-serif.weights.regular]
 shape = 400
 menu = 400

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 cp ./term-private-build-plans.toml ./iosevka/private-build-plans.toml
 cd iosevka
 npm install
