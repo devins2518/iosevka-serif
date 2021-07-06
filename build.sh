@@ -19,6 +19,9 @@ rm -rf norm/
 mv -f ./iosevka/dist/iosevka-serif/ttf/ norm/
 
 echo "Skipping nerd font patching, as it's broken currently. Possibly too many glyphs for 16bits."
+rm -rf out/
+mkdir out
+mv -f ./term/* out/
 # for file in ./term/*; do
 #     ./nerdfonts/font-patcher -c -out out $file &
 # done

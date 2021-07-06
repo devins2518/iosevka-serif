@@ -1,6 +1,6 @@
 [buildPlans.iosevka-serif-term]
 family = "Iosevka Serif Term"
-spacing = "fontconfig-mono"
+spacing = "term"
 serifs = "slab"
 no-cv-ss = false
 
@@ -40,7 +40,7 @@ i = "serifed"
 j = "flat-hook-serifed"
 k = "cursive-serifed"
 l = "serifed"
-m = "short-leg-tailed-top-left-serifed"
+m = "short-leg"
 n = "straight"
 p = "eared"
 q = "straight"
@@ -105,6 +105,6 @@ menu = 700
 css = 700
 
 [buildPlans.iosevka-serif-term.widths.normal]
-shape = 600
+shape = 500
 menu = 5
 css = "normal"
