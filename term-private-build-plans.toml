@@ -81,8 +81,8 @@ ascii-grave = "straight"
 question = "smooth"
 punctuation-dot = "square"
 
-[buildPlans.iosevka-serif-term.ligations]
-inherits = "dlig"
+    [buildPlans.iosevka-serif-term.ligations]
+    inherits = "dlig"
 
 [buildPlans.iosevka-serif-term.weights.regular]
 shape = 400

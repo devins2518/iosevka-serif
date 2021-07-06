@@ -18,7 +18,8 @@ cd ..
 rm -rf norm/
 mv -f ./iosevka/dist/iosevka-serif/ttf/ norm/
 
-for file in ./term/*; do
-    ./nerdfonts/font-patcher -c -out out $file &
-done
-wait
+echo "Skipping nerd font patching, as it's broken currently. Possibly too many glyphs for 16bits."
+# for file in ./term/*; do
+#     ./nerdfonts/font-patcher -c -out out $file &
+# done
+# wait
