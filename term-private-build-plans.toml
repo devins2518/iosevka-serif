@@ -1,6 +1,6 @@
 [buildPlans.iosevka-serif-term]
 family = "Iosevka Serif Term"
-spacing = "term"
+spacing = "fontconfig-mono"
 serifs = "slab"
 no-cv-ss = false
 
