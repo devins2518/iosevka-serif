@@ -6,5 +6,5 @@ let
 in stdenv.mkDerivation {
   name = "iosevka-build";
 
-  buildInputs = [ nodejs ttfautohint pythonpack ];
+  buildInputs = [ nodejs ttfautohint pythonpack bc ];
 }
