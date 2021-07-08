@@ -22,7 +22,8 @@ echo "Skipping nerd font patching, as it's broken currently. Possibly too many g
 rm -rf out/
 mkdir out
 mv -f ./term/* out/
+
 # for file in ./term/*; do
-#     ./nerdfonts/font-patcher -c -out out $file &
+#     ./nerdfonts/bin/scripts/gotta-patch-em-all-font-patcher\!.sh -c -out out $file &
 # done
 # wait
